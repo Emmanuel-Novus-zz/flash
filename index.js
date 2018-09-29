@@ -68,7 +68,7 @@ const systemquizz = require('./commands/systemquizz.js');
 const systemwarn = require('./commands/systemwarn.js');
 const system8ball = require('./commands/system8ball.js');
 
-client.login('NDU0NjgzODI4NTM2MDgyNDMz.DfxBSw.YTfferuRvgRhhgILBtu64JKD3Kg');                                             
+client.login(TOKEN);                                             
 
 db.defaults({xp:[], money:[],pc: [], employes: [], employesadministration:[]}).write()
 
